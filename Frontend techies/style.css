@@ -1,0 +1,69 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background: linear-gradient(90deg, rgba(124,65,142,1) 22%, rgba(235,252,255,1) 67%);
+}
+
+
+
+.container {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	align-items: center;
+	gap: 1rem;
+	background-color: #ecf2ff;
+	margin: 0 auto;
+	margin-top: 4rem;
+	border-radius: 2rem;
+	box-shadow: 0px 5px 15px grey;
+}
+
+.Login {
+	font-size: 2rem;
+	color: skyblue;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+	outline: none;
+	border: 2px solid skyblue;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	border-radius: 1.5rem;
+	color: skyblue;
+}
+
+::placeholder {
+	color: skyblue;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.btn {
+	background-color: skyblue;
+	padding: 1rem 2rem;
+	color: #fff;
+	border-radius: inherit;
+	transition: all .25s ease-in-out;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: skyblue;
+	transition: all .25s ease-in-out;
+}
